@@ -36,7 +36,7 @@ def recommend(recipe_index, weights):
     return recommendations
 
 # Streamlitアプリの構築
-st.title("レシピに合う音楽推薦システム 🎵🍽️")
+st.title("レシピに合う音楽推薦システム")
 
 # データ読み込み
 recipe_data, music_data = load_data()
